@@ -1,0 +1,28 @@
+.expenseitem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 10px;
+    background-color:  #8CC0DE;
+    min-width: 617.17px;
+
+}
+
+.itemdes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1rem;
+    gap: 2rem;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(67, 67, 67);
+    color: rgb(227, 225, 225);
+    padding: 10px;
+    min-width: 300.59px;
+    max-height: 87.2px;
+    border: white solid 1px;
+}

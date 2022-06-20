@@ -1,0 +1,28 @@
+.lmao {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 80, 80);
+    padding: 1rem 6rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    border: white solid 1px;
+    
+}
+
+.month {
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+}
+
+.year {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.day {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}

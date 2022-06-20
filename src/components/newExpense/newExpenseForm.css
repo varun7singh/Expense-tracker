@@ -1,0 +1,41 @@
+.necontrols {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 600;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #8CC0DE;
+    border-radius: 20px;
+}
+
+.necontrol {
+    width: 2rem;
+    padding-right: 1rem;
+    text-align: center;
+
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+    transition: all 0.1s cubic-bezier();
+    font-weight: 600;
+    border: none;
+}
+
+.btn:hover {
+        transform: scale(1.1);
+        color: white;
+        background-color: #FFD9C0 ;
+}
+
+.button_div {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}

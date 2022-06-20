@@ -1,0 +1,39 @@
+.newExpense {
+    /* width: 681.15px; */
+    background-color: white;
+    height: 215px;
+    border-radius: 12px;
+    margin-top: 5rem;
+    border-radius: 20px;
+
+}
+
+.prevDisplayform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #8CC0DE;
+  border-radius: 20px;
+
+}
+
+.btn1 {
+  all: unset;
+  height: 5rem;
+  width: 11rem;
+  background-color: white;
+  border-radius:20px;
+  text-align: center;
+  color: white;
+  background-color: #F4BFBF;
+
+
+}
+
+.btn1:hover {
+  color: white;
+  transform: scale(1.1);
+
+}

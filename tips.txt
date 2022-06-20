@@ -1,28 +1,38 @@
+spread operator can be used to copy objects which would be only refernced if assigned directly
+
+root id is given to div where the whole app is to be rendered in single index html file
+
+
+only one root element per component
+
+
+
 import React, { useState } from "react";
 import "./App.css";
 import ExpenseItems from "./components/expense/ExpenseItems";
 import NewExpense from "./components/newExpense/NewExpense";
 
+
 const intExpenses = [
   {
     id: "1",
     title: "Mercedes",
-    amount: 710,
-    date: new Date(2021, 5, 30),
+    amount: 7200,
+    date: new Date(2021, 4, 30),
   },
   {
     id: "2",
     title: "condoms",
-    amount: 129,
+    amount: 1,
     date: new Date(2021, 4, 30),
   },
   {
     id: "3",
 
     title: "Complan",
-    amount: 650,
-    date: new Date(2021, 6, 30),
-  }
+    amount: 7,
+    date: new Date(2021, 4, 30),
+  },
 ];
 
 function App() {
