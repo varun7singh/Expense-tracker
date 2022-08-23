@@ -12,7 +12,7 @@ const intExpenses = [
   },
   {
     id: "2",
-    title: "condoms",
+    title: "cake",
     amount: 129,
     date: new Date(2021, 4, 30),
   },

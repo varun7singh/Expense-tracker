@@ -28,7 +28,7 @@ function NewExpense(props) {
 
   {!flag && <div className="prevDisplayform">
     <button type = "button" onClick
-    ={displayButtonHandler} className="btn1"><h2>Add Expense</h2></button>
+    ={displayButtonHandler} className="btn1"><h3>Add</h3></button>
   </div>}
   {flag && <ExpenseForm onFormSave={newExpenseFormHandler} onCancel={cancel}/>}
 

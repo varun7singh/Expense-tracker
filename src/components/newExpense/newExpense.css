@@ -1,7 +1,7 @@
 .newExpense {
     /* width: 681.15px; */
     background-color: white;
-    height: 215px;
+    height: 200px;
     border-radius: 12px;
     margin-top: 5rem;
     border-radius: 20px;
@@ -14,20 +14,21 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: #8CC0DE;
+  background-color: #AF7AB3;
   border-radius: 20px;
 
 }
 
 .btn1 {
   all: unset;
-  height: 5rem;
-  width: 11rem;
+  height: 4rem;
+  width: 8rem;
   background-color: white;
   border-radius:20px;
   text-align: center;
   color: white;
-  background-color: #F4BFBF;
+  background-color: #E4D192;
+  transition: all 0.2s ease;
 
 
 }

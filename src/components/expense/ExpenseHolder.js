@@ -3,11 +3,6 @@ import "./expenseHolder.css";
 import React, { useState } from "react";
 
 function ExpenseHolder(props) {
-  const [a, b] = useState(props.title);
-
-  function clickHandler() {
-    b("Done");
-  }
 
   return (
     <div className="expenseitem">
@@ -18,9 +13,6 @@ function ExpenseHolder(props) {
         </div>
         <div className="f">
           <h2>${props.amount}</h2>
-        </div>
-        <div className="f">
-          <button onClick={clickHandler}>Done</button>
         </div>
       </div>
     </div>
